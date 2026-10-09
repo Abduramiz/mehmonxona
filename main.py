@@ -184,6 +184,7 @@ Tanlang: """))
 
         if menyu_mehmonxona == 0:
             create_xona.saqla()
+            print("Xayer ✋")
             break
         elif menyu_mehmonxona == 1:
             raqam_inp = int(input("Xona raqam kiriting: "))
