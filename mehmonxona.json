@@ -1,0 +1,28 @@
+{
+    "Ustudy Hotel": [
+        {
+            "raqam": 101,
+            "narx": 200000,
+            "sigim": 2,
+            "turi": "oddiy"
+        },
+        {
+            "raqam": 102,
+            "narx": 300000,
+            "sigim": 3,
+            "turi": "oddiy"
+        },
+        {
+            "raqam": 200,
+            "narx": 22,
+            "sigim": 3,
+            "turi": "oddiy"
+        },
+        {
+            "raqam": 65,
+            "narx": 436,
+            "sigim": 346,
+            "turi": "oddiy"
+        }
+    ]
+}
