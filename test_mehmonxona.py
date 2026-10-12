@@ -1,12 +1,12 @@
 import unittest
-from xona.xona_oop import Xona
+from mehmonxona.mehmonxona_oop import Xona , Mehmonxona
 
-test_xona = Xona(1,29999,4)
+
 class XonaTest(unittest.TestCase):
 
-    def test_xona(self):
-        self.assertTrue(test_xona.band_mi())
+    def setUp(self):
+        self.test_xona = Xona(1, 10000, 4)
 
-    def test_mehmon(self):
-        pass
+    def test_xona_bosh(self):
+        self.assertTrue(self.test_xona.band_mi())
 
